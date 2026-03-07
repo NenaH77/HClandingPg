@@ -79,6 +79,12 @@ body { font-family: 'Inter', sans-serif; color: var(--text); line-height: 1.7; s
     margin-bottom: 30px; 
 }
 
+.hero-btns {
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+}
+
 .btn-primary { 
     background: var(--pd-red); 
     color: white; 
@@ -91,9 +97,33 @@ body { font-family: 'Inter', sans-serif; color: var(--text); line-height: 1.7; s
     border: none; 
     cursor: pointer; 
 }
+
+.btn-secondary {
+    padding: 15px 35px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: var(--transition);
+    display: inline-block;
+    cursor: pointer;
+    
+    /* Ghost Look */
+    background: transparent;
+    color: var(--white);
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(5px); /* Makes it feel like glass */
+}
+
 .btn-primary:hover { 
     transform: translateY(-3px); 
     box-shadow: 0 10px 20px rgba(196,18,47,0.3); 
+}
+
+.btn-secondary:hover {
+    background: rgba(255, 255, 255, 0.1);
+    border-color: var(--white);
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 /* PARTICLES FIX */
