@@ -276,6 +276,15 @@ textarea {
 /* DESKTOP VIEW (default) */
 .hamburger { display: none; }
 
+@media (max-width: 768px) {
+    .hamburger {
+        display: flex !important; /* Force it to show */
+        flex-direction: column;
+        gap: 5px;
+        cursor: pointer;
+    }
+}
+
 /* MOBILE VIEW (Screens 768px and smaller) */
 @media (max-width: 768px) {
     .hamburger {
@@ -305,3 +314,5 @@ textarea {
         display: flex;
     }
 }
+
+
