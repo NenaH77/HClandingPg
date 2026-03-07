@@ -313,6 +313,34 @@ textarea {
     .nav-menu.active {
         display: flex;
     }
+
+    /* 1. Stack Service Cards */
+    .service-grid {
+        display: grid;
+        grid-template-columns: 1fr !important; /* Force single column */
+        gap: 20px;
+    }
+
+    /* 2. Stack 3D Model Section */
+    .model-grid {
+        display: grid;
+        grid-template-columns: 1fr !important; /* Force single column */
+        gap: 30px;
+        text-align: center;
+    }
+
+    .spline-wrapper {
+        height: 300px; /* Adjust height for mobile */
+        width: 100%;
+    }
+
+    /* 3. Ensure Navbar stacks correctly */
+    .nav-container {
+        flex-direction: column;
+    }
+}
+
+    
 }
 
 
