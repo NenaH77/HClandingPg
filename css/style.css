@@ -285,7 +285,11 @@ textarea {
         gap: 5px;
         cursor: pointer;
     }
+    
+
 }
+
+
 
 /* MOBILE VIEW (Screens 768px and smaller) */
 @media (max-width: 768px) {
@@ -339,10 +343,7 @@ textarea {
     /* 3. Ensure Navbar stacks correctly */
     .nav-container {
         flex-direction: column;
-    }
-}
-
-    
+    }  
 }
 
 
