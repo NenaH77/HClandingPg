@@ -270,31 +270,38 @@ textarea {
 }
 
 
-
 /* Mobile Responsive Breakpoint */
+
+
+/* DESKTOP VIEW (default) */
+.hamburger { display: none; }
+
+/* MOBILE VIEW (Screens 768px and smaller) */
 @media (max-width: 768px) {
-    /* Hide menu and show hamburger */
+    .hamburger {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        cursor: pointer;
+    }
+    .hamburger span {
+        width: 25px; height: 3px; background: #333;
+    }
+
     .nav-menu {
-        display: none; /* Hidden by default on mobile */
+        display: none; /* Hide menu by default */
         flex-direction: column;
         position: absolute;
         top: 100%;
         left: 0;
         width: 100%;
         background: white;
-        padding: 20px;
-        text-align: center;
+        padding: 20px 0;
+        box-shadow: 0 5px 10px rgba(0,0,0,0.1);
     }
-    .nav-menu.active { display: flex; }
-    .hamburger { display: block; cursor: pointer; }
-
-    /* Stack Services: 3 columns -> 1 column */
-    .service-grid { grid-template-columns: 1fr; }
-
-    /* Stack 3D Model: Text above the iframe */
-    .model-grid { grid-template-columns: 1fr; text-align: center; }
-    .spline-wrapper { height: 300px; margin-top: 20px; }
+    
+    /* This class is added via JavaScript */
+    .nav-menu.active {
+        display: flex;
+    }
 }
-
-/* Hide hamburger on desktop */
-.hamburger { display: none; }
