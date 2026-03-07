@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PD Healthcare Specialty | Infection Control</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="navbar">
+    <div class="container nav-container">
+        <div class="logo">PD <span>Healthcare Specialty</span></div>
+        <nav>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<section id="home" class="hero">
+    <div class="particles" id="particle-container"></div>
+    <div class="hero-content container">
+        <span class="badge">A Division of Paul Davis Restoration</span>
+        <h1>Advanced Infection Control for Outpatient Care</h1>
+        <p>Evidence-based sanitation systems designed to protect patients, staff, and facility accreditation.</p>
+        <div class="hero-btns">
+            <a href="#contact" class="btn-primary">Request Consultation</a>
+            <a href="#services" class="btn-secondary">View Services</a>
+        </div>
+    </div>
+</section>
+
+<section id="services" class="services section">
+    <div class="container">
+        <h2 class="section-title">Clinical Solutions</h2>
+        <div class="service-grid">
+            <div class="service-card">
+                <div class="card-img" style="background-image: url('img/service1.jpg');"></div>
+                <h3>Infection Prevention Audits</h3>
+                <p>Detailed risk assessments specifically for high-traffic outpatient environments.</p>
+            </div>
+            <div class="service-card">
+                <div class="card-img" style="background-image: url('img/service2.jpg');"></div>
+                <h3>Regulatory Compliance</h3>
+                <p>Meeting CDC, OSHA, and CMS standards to ensure your facility stays compliant.</p>
+            </div>
+            <div class="service-card">
+                <div class="card-img" style="background-image: url('img/service3.jpg');"></div>
+                <h3>Staff Protocol Training</h3>
+                <p>On-site training for healthcare staff on maintaining sterile environments.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="interactive-model">
+    <div class="container model-grid">
+        <div class="model-text">
+            <h2>Evidence-Based Visualization</h2>
+            <p>Our 3D modeling helps facility managers identify high-risk "bio-load" zones before they become a liability.</p>
+        </div>
+        <div class="spline-wrapper">
+            <iframe src='https://my.spline.design/virus-4e2e1fce2064dbfa2d6d8ff879ac449f/' frameborder='0' width='100%' height='100%'></iframe>
+        </div>
+    </div>
+</section>
+
+<section id="features" class="features section">
+    <div class="container">
+        <div class="feature-header">
+            <h2 class="section-title">Why PD Healthcare</h2>
+        </div>
+        <div class="feature-grid">
+            <div class="feature-item">
+                <div class="feature-icon">🛡️</div>
+                <h3>Hospital Grade</h3>
+                <p>Bringing acute-care sanitation standards to the outpatient world.</p>
+            </div>
+            <div class="feature-item">
+                <div class="feature-icon">📈</div>
+                <h3>Data Driven</h3>
+                <p>ATP testing and validation reports provided with every service.</p>
+            </div>
+            <div class="feature-item">
+                <div class="feature-icon">⚡</div>
+                <h3>Rapid Response</h3>
+                <p>24/7 emergency disinfection should an outbreak occur.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="about" class="about section">
+    <div class="container about-flex">
+        <div class="about-image" style="background-image: url('img/about.jpg');"></div>
+        <div class="about-text">
+            <h2>The Power of the Network</h2>
+            <p><strong>PD Healthcare Specialty operates as a division of Paul Davis Restoration</strong>, bringing national expertise in remediation and infection control.</p>
+            <p>We combine decades of disaster recovery experience with specialized healthcare protocols to provide a shield for your facility.</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="contact section">
+    <div class="container contact-container">
+        <div class="contact-info">
+            <h2>Ready to secure your facility?</h2>
+            <p>Our specialists are standing by to perform a complimentary facility audit.</p>
+        </div>
+        <form id="contactForm" action="contact.php" method="POST" class="premium-form">
+            <div class="form-row">
+                <input type="text" name="name" placeholder="Full Name" required>
+                <input type="email" name="email" placeholder="Work Email" required>
+            </div>
+            <textarea name="message" placeholder="Describe your facility needs..." required></textarea>
+            <button type="submit" class="btn-primary">Send Inquiry</button>
+            <div id="formStatus"></div>
+        </form>
+    </div>
+</section>
+
+<footer>
+    <div class="container footer-grid">
+        <p>&copy; 2026 PD Healthcare Specialty. A Paul Davis Restoration Division.</p>
+        <div class="footer-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Compliance Terms</a>
+        </div>
+    </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
