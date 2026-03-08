@@ -510,16 +510,39 @@ body {
         padding: 0 10px;
     }
 
-    .btn-secondary {
-        margin-left: 0;
-        margin-top: 15px;
+    hero-btns {
+        flex-direction: column;
+        /* Force Stacked */
+        gap: 15px;
         width: 100%;
-        text-align: center;
+        padding: 0 40px;
+        /* Padding keeps them from touching screen edges */
     }
 
-    .btn-primary {
+    .btn-primary,
+    .btn-secondary {
         width: 100%;
-        text-align: center;
+        margin-left: 0;
+        /* Remove potential margin conflicts */
+    }
+
+    /* This forces the model section to stack */
+    .model-grid {
+        grid-template-columns: 1fr;
+        /* Stacked */
+        gap: 30px;
+    }
+
+    .spline-wrapper {
+        height: 350px;
+        /* Adjust height for mobile */
+        order: 2;
+        /* Ensures it stays at the bottom */
+    }
+
+    .model-text {
+        order: 1;
+        /* Ensures text stays at the top */
     }
 
     .form-row {
