@@ -1,146 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PD Healthcare Specialty | Infection Control</title>
+    <title>PD Healthcare Specialty | Environment of Care</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
+
 <body>
 
-<header class="navbar">
-    <div class="container nav-container">
-        <div class="logo">PD <span>Healthcare Specialty</span></div>
-        
-        <div class="hamburger" id="hamburger">
-            <span></span>
-            <span></span>
-            <span></span>
+    <header class="navbar">
+        <div class="container nav-container">
+            <div class="logo">PD <span>HEALTHCARE SPECIALTY</span></div>
+            <div class="hamburger" id="hamburger"><span></span><span></span><span></span></div>
+            <nav class="nav-menu" id="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#shield">SHIELD™ Framework</a></li>
+                <li><a href="#solutions">Solutions</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </nav>
         </div>
+    </header>
 
-        <nav class="nav-menu" id="nav-menu">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#features">Features</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </nav>
-    </div>
-</header>
-
-<section id="home" class="hero">
-    <div class="particles" id="particle-container"></div>
-    <div class="hero-content container">
-        <span class="badge">A Division of Paul Davis Restoration</span>
-            <h1>Advanced Infection Control for Outpatient Care</h1>
-            <p>Evidence-based sanitation systems designed to protect patients, staff, and facility accreditation.</p>
-        <div class="hero-btns">
-            <a href="#contact" class="btn-primary">Request Consultation</a>
-            <a href="#services" class="btn-secondary">View Services</a>
-    </div>
-    </div>
-</section>
-
-<section id="services" class="services section">
-    <div class="container">
-        <h2 class="section-title">Clinical Solutions</h2>
-        <div class="service-grid">
-            <div class="service-card">
-                <div class="card-img" style="background-image: url('img/service1.jpg');"></div>
-                <h3>Infection Prevention Audits</h3>
-                <p>Detailed risk assessments specifically for high-traffic outpatient environments.</p>
-            </div>
-            <div class="service-card">
-                <div class="card-img" style="background-image: url('img/service2.jpg');"></div>
-                <h3>Regulatory Compliance</h3>
-                <p>Meeting CDC, OSHA, and CMS standards to ensure your facility stays compliant.</p>
-            </div>
-            <div class="service-card">
-                <div class="card-img" style="background-image: url('img/service3.jpg');"></div>
-                <h3>Staff Protocol Training</h3>
-                <p>On-site training for healthcare staff on maintaining sterile environments.</p>
+    <section id="home" class="hero">
+        <div class="container hero-content">
+            <span class="badge">Paul Davis Baton Rouge</span>
+            <h1>Healthcare & The Environment of Care</h1>
+            <p>Protecting the Patient Population. Supporting Clinical Operations. Managing Risk.</p>
+            <div class="hero-btns">
+                <a href="#contact" class="btn-primary">Request Consultation</a>
+                <a href="#shield" class="btn-secondary">SHIELD™ Framework</a>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<section class="interactive-model">
-    <div class="container model-grid">
-        <div class="model-text">
-            <h2>Evidence-Based Visualization</h2>
-            <p>Our 3D modeling helps facility managers identify high-risk "bio-load" zones before they become a liability.</p>
-        </div>
-        <div class="spline-wrapper">
-            <iframe src='https://my.spline.design/virus-4e2e1fce2064dbfa2d6d8ff879ac449f/' frameborder='0' width='100%' height='100%'></iframe>
-        </div>
-    </div>
-</section>
-
-<section id="features" class="features section">
-    <div class="container">
-        <div class="feature-header">
-            <h2 class="section-title">Why PD Healthcare</h2>
-        </div>
-        <div class="feature-grid">
-            <div class="feature-item">
-                <div class="feature-icon">🛡️</div>
-                <h3>Hospital Grade</h3>
-                <p>Bringing acute-care sanitation standards to the outpatient world.</p>
-            </div>
-            <div class="feature-item">
-                <div class="feature-icon">📈</div>
-                <h3>Data Driven</h3>
-                <p>ATP testing and validation reports provided with every service.</p>
-            </div>
-            <div class="feature-item">
-                <div class="feature-icon">⚡</div>
-                <h3>Rapid Response</h3>
-                <p>24/7 emergency disinfection should an outbreak occur.</p>
+    <section class="trust-bar" data-aos="fade-up">
+        <div class="container">
+            <div class="trust-items">
+                <div class="trust-item"><span>✓</span> Joint Commission Compliant</div>
+                <div class="trust-item"><span>✓</span> OSHA Certified</div>
+                <div class="trust-item"><span>✓</span> HIPAA Aware</div>
+                <div class="trust-item"><span>✓</span> Infection Prevention Standards</div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<section id="about" class="about section">
-    <div class="container about-flex">
-        <div class="about-image" style="background-image: url('img/about.jpg');"></div>
-        <div class="about-text">
-            <h2>The Power of the Network</h2>
-            <p><strong>PD Healthcare Specialty operates as a division of Paul Davis Restoration</strong>, bringing national expertise in remediation and infection control.</p>
-            <p>We combine decades of disaster recovery experience with specialized healthcare protocols to provide a shield for your facility.</p>
-        </div>
-    </div>
-</section>
-
-<section id="contact" class="contact section">
-    <div class="container contact-container">
-        <div class="contact-info">
-            <h2>Ready to secure your facility?</h2>
-            <p>Our specialists are standing by to perform a complimentary facility audit.</p>
-        </div>
-        <form id="contactForm" action="contact.php" method="POST" class="premium-form">
-            <div class="form-row">
-                <input type="text" name="name" placeholder="Full Name" required>
-                <input type="email" name="email" placeholder="Work Email" required>
+    <section class="info-strip" data-aos="fade-up">
+        <div class="container">
+            <div class="quote-wrapper">
+                <!--<div class="icon-accent" style="font-size: 3rem; margin-bottom: 20px;">🛡️</div>-->
+                <h2>The Environment of Care is an extension of clinical responsibility.</h2>
+                <p>Healthcare facilities operate under heightened expectations for infection prevention, air quality control, and environmental risk management.</p>
             </div>
-            <textarea name="message" placeholder="Describe your facility needs..." required></textarea>
-            <button type="submit" class="btn-primary">Send Inquiry</button>
-            <div id="formStatus"></div>
-        </form>
-    </div>
-</section>
-
-<footer>
-    <div class="container footer-grid">
-        <p>&copy; 2026 PD Healthcare Specialty. A Paul Davis Restoration Division.</p>
-        <div class="footer-links">
-            <a href="#">Privacy Policy</a>
-            <a href="#">Compliance Terms</a>
         </div>
-    </div>
-</footer>
+    </section>
 
-<script src="js/script.js"></script>
+
+    <section id="shield" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">The SHIELD™ Healthcare Framework</h2>
+
+            <div class="card-grid" data-aos="fade-up" data-aos-delay="200">
+                <div class="service-card">
+                    <img src="img/containment.jpg" alt="Containment setup">
+                    <h3>Structured Containment</h3>
+                    <p>Disciplined, airtight containment barriers to protect patient populations and maintain infection prevention.</p>
+                </div>
+                <div class="service-card">
+                    <img src="img/filtration.jpg" alt="HEPA filtration system">
+                    <h3>HEPA Air Management</h3>
+                    <p>Continuous particulate control and pathogen mitigation systems for occupied clinical environments.</p>
+                </div>
+                <div class="service-card">
+                    <img src="img/consult.jpg" alt="Risk management consultation">
+                    <h3>Operational Oversight</h3>
+                    <p>Data-driven environmental risk management in collaboration with facilities leadership and clinical teams.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="compliance-section">
+        <div class="container">
+            <div class="compliance-grid">
+                <div class="compliance-visual">
+                    <div class="card-icon">📋</div>
+                    <h3>Regulatory Certainty</h3>
+                </div>
+
+                <div class="compliance-content">
+                    <h2>Audit-Ready Environmental Compliance</h2>
+                    <p>Our framework is built on the rigorous demands of healthcare facilities. By prioritizing <strong>cross-contamination awareness</strong> and <strong>containment integrity</strong>, we provide the documented proof required for clinical facility audits.</p>
+                    <p>We don't just manage the environment; we ensure every step of our <strong>environmental risk mitigation</strong> process is logged and traceable, allowing facilities leadership to maintain seamless compliance with infection prevention standards.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container model-grid">
+            <div class="model-text">
+                <h2>Evidence-Based Visualization</h2>
+                <p>Our 3D modeling helps facility managers identify high-risk "bio-load" zones before they become a liability.</p>
+            </div>
+            <div class="spline-wrapper">
+                <iframe src='https://my.spline.design/virus-4e2e1fce2064dbfa2d6d8ff879ac449f/' frameborder='0' width='100%' height='100%'></iframe>
+            </div>
+        </div>
+    </section>
+
+    <section class="specialized-solutions">
+        <div class="container">
+            <h2 class="section-title">Specialized Solutions</h2>
+            <div class="solutions-grid">
+                <div class="solution-item">
+                    <div class="icon-box">🛡️</div>
+                    <h3>Cross-Contamination Awareness</h3>
+                    <p>Disciplined protocols ensuring complete isolation between work areas and patient-care zones.</p>
+                </div>
+                <div class="solution-item">
+                    <div class="icon-box">📐</div>
+                    <h3>Containment Integrity</h3>
+                    <p>Precision-sealed barrier systems designed for maximum stability in sensitive clinical environments.</p>
+                </div>
+                <div class="solution-item">
+                    <div class="icon-box">💨</div>
+                    <h3>Airflow & Particulate Control</h3>
+                    <p>Advanced HEPA filtration systems to maintain critical air quality and infection prevention standards.</p>
+                </div>
+                <div class="solution-item">
+                    <div class="icon-box">📊</div>
+                    <h3>Environmental Risk Mitigation</h3>
+                    <p>Proactive, process-driven strategies to reduce liability and ensure regulatory compliance.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="about" class="section about-box">
+        <div class="container">
+            <div class="about-content">
+                <h2>Division of Paul Davis Restoration</h2>
+                <p>PD Healthcare Specialty operates as a division of Paul Davis Restoration, bringing national expertise in remediation and infection control.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <div class="contact-wrapper">
+                <h2 class="section-title">Manage Your Environmental Risk</h2>
+                <form id="contactForm" class="premium-form">
+                    <div class="form-row">
+                        <input type="text" name="name" placeholder="Full Name" required>
+                        <input type="email" name="email" placeholder="Facility Email" required>
+                    </div>
+                    <textarea name="message" placeholder="Describe your facility requirements..." required></textarea>
+                    <button type="submit" class="btn-primary">Send Inquiry</button>
+                </form>
+                <div id="formStatus"></div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 PD Healthcare Specialty. A Paul Davis Restoration Division.</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/script.js"></script>
 </body>
+
 </html>
